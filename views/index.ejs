@@ -1,0 +1,22 @@
+<%- include("partials/header.ejs") %>
+
+
+
+
+<div class="row">
+    <form action="/submit" method="POST" onsubmit="return addTask()">
+        <input name="text" id="input-box" type="text" class="feedback-input" placeholder="write here" />
+        <input type="submit" value="+" class="button" />
+    </form>
+</div>
+
+
+
+
+<ul id="li-container">
+
+
+
+</ul>
+
+<%- include("partials/footer.ejs") %>

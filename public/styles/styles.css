@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:'Poppins', sans-serif ;
+    box-sizing: border-box;
+  }
+  
+  .container
+  {
+      width: 100%;
+      min-height: 100vh;
+      background: linear-gradient(100deg,#EBE3D5,#776B5D);
+      padding: 10px;
+  }
+  
+  .h2-class {
+
+    display: flex;
+    justify-content:center;
+    padding-bottom: 20px;
+    color:#776B5D;
+    
+  }
+
+
+  .todo-app
+  {
+      width: 100%;
+      max-width: 540px;
+      background-color:#ECE3CE;
+      margin: 100px auto 20px;
+      padding: 40px 30px 70px;
+      border-radius: 10px;
+  }
+  
+  
+
+  .row
+  {
+   display: flex;
+   background: #edeef0;
+   justify-content: end;
+   border-radius: 30px;
+   padding-left: 20px;
+   margin-bottom: 25px;
+  }
+  
+  input
+  {
+      flex: 1;
+      border: none;
+      outline: none;
+      background: transparent;
+      padding: 25px;
+      font-weight: 5px;
+      font-size: 20px;
+  }
+  
+  .button
+  {
+      border: none;
+      outline: none;
+      background:#776B5D;
+      color: #fff;
+      font-size: 20px;
+      border-radius: 20px;
+      cursor: pointer;
+      float:right;
+      padding-right: 20px;
+  }
+  
+  ul li
+  {
+      list-style: none;
+      font-size: 17px;
+      padding: 12px 8px 12px 50px;
+      cursor: pointer;
+      user-select:none ;
+      position: relative;
+  }
+  
+  ul li::before
+  {
+      content: '';
+      position: absolute;
+      height: 28px;
+      width: 28px;
+      border-radius: 50%;
+      background-position: center;
+      background-size: cover;
+      top: 12px;
+      left: 8px;
+  }
+  
+  ul li.checked
+  {
+      color: #555;
+      text-decoration: line-through;
+  }
+  
+
+  
+  ul li span
+  {
+      position: absolute;
+      top: 5px;
+      right: 0;
+      width: 40px;
+      height: 40px;
+      font-size: 22px;
+      color: #555;
+      line-height: 40px;
+      text-align: center;
+      border-radius: 50%;
+  }
+  
+  ul li span:hover
+  {
+   background: #edeef0;
+  }
+
+
+  .foot {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-weight: bold;
+    color:#776B5D;
+  }
+
+
+  .flex-shrink-0 {
+    flex-shrink: 0;
+  }
+
+
+  .lbl {
+
+    font-size: 32px;
+    padding-top: 50px;
+    
+  }
+
+  #li-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+
+
+  a {
+    
+    text-decoration: none;
+    color:#776B5D;
+    padding-left: 30px;
+    padding-top: 40px;
+  }
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    
+  }
